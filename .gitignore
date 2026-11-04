@@ -1,0 +1,17 @@
+# Never commit local credentials
+.env
+.env.*
+*.key
+*.pem
+token.txt
+*token*.txt
+
+# Python / packaging artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+.DS_Store
